@@ -67,7 +67,6 @@ int minHeap::removeMin()
 {
     if (heap.empty())
     {
-        // Return -1 if the heap is empty (assuming -1 as an indicator of an error or an empty heap)
         return -1;
     }
 
